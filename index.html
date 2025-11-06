@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سينما الأسرة العربية - Arab Family Cinema</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="spotlight"></div>
+    <div class="film-reel" style="top: 10%; left: 5%;"></div>
+    <div class="film-reel" style="bottom: 10%; right: 5%;"></div>
+    <div id="stars-container"></div>
+    <div id="particles-container"></div>
+    <div class="camera-flash" id="cameraFlash"></div>
+    <div class="overlay" id="overlay"></div>
+
+    <header class="main-header" id="mainHeader">
+        <nav>
+            <div class="logo-container">
+                <img src="https://image2url.com/images/1760779860996-73bc39b2-fcf5-46e5-b2dc-12840ef54267.jpeg" alt="سينما الأسرة العربية" class="logo-img">
+                <div class="logo">
+                    <div class="logo-main">سينما الأسرة العربية</div>
+                    <div class="logo-sub">Arab Family Cinema</div>
+                </div>
+            </div>
+            <button class="hamburger" id="hamburger-menu" aria-label="القائمة">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-container" id="nav-container">
+                <div class="nav-links">
+                    <a href="#home">الرئيسية</a>
+                    <a href="#about">من نحن</a>
+                    <a href="#services">خدماتنا</a>
+                    <a href="#projects">مشاريعنا</a>
+                    <a href="#clients">عملاؤنا</a>
+                    <a href="#blog">المدونة</a>
+                    <a href="#contact">اتصل بنا</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/1MncCMkAdR/?mibextid=qi2Omg" target="_blank" class="social-icon facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/cinemaarabfamily?igsh=bmxvMmFuajVuNjFo" target="_blank" class="social-icon instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@cinemaarabfamily?_t=ZS-90n2vzNFqyY&_r=1" target="_blank" class="social-icon tiktok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://youtu.be/mMUTqbHIrGw?si=yN2Ss0bXcMxepbfz" target="_blank" class="social-icon youtube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://wa.me/201125566003" target="_blank" class="social-icon whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="mailto:aadelrowad1@gmail.com" class="social-icon email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <!-- تم إزالة زر "شاهد أفلامنا" هنا -->
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section" id="home">
+            <div class="hero-content">
+                <img src="https://image2url.com/images/1760779860996-73bc39b2-fcf5-46e5-b2dc-12840ef54267.jpeg" alt="سينما الأسرة العربية" class="hero-logo">
+                
+                <h1 class="typewriter-text">سينما الأسرة العربية</h1>
+                <div class="hero-subtitle">Arab Family Cinema</div>
+                
+                <p class="hero-description">
+                    نقدم محتوى سينمائي عائلي هادف يجمع بين الترفيه والقيم، لنكون الوجهة الأولى للعائلة العربية في عالم الأفلام والرسوم المتحركة.
+                    نرسم البسمة وننشر القيم الإيجابية من خلال قصصنا المؤثرة.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">
+                        <i class="fas fa-play-circle"></i> اكتشف أفلامنا
+                    </a>
+                    <a href="#services" class="btn-secondary">
+                        <i class="fas fa-concierge-bell"></i> خدماتنا
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="section-bg" style="background-image: url('https://images.unsplash.com/photo-1489599809505-7c8c5a6c6d6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');"></div>
+            <h2 class="section-title reveal">من نحن</h2>
+            <div class="about-content-centered">
+                <p class="about-text-centered reveal">
+                    <strong>Arab Family Cinema</strong> هي مبادرة إعلامية رائدة تهدف إلى إنتاج محتوى سينمائي عائلي هادف.
+                    نحن نؤمن بأن السينما العائلية هي ركيزة أساسية في بناء مجتمع واعٍ ومتماسك، ونسعى من خلال إنتاجاتنا إلى تقديم محتوى يليق بالعائلة العربية ويواكب تطلعاتها.
+                </p>
+                <div class="about-features">
+                    <div class="feature reveal delay-1 card-3d">
+                        <img src="https://cdn.arabsstock.com/uploads/images/56955/a-saudi-arabian-gulf-family-thumbnail-56955.webp" alt="رؤية واضحة" class="feature-icon">
+                        <h4>رؤية واضحة</h4>
+                        <p>الريادة في سينما الأسرة العربية الهادفة</p>
+                    </div>
+                    <div class="feature reveal delay-2 card-3d">
+                        <img src="https://img.freepik.com/premium-photo/cinematic-holographic-film-production-set-scenes_1160544-2681.jpg?w=996" alt="جودة عالية" class="feature-icon">
+                        <h4>جودة عالية</h4>
+                        <p>إنتاج محتوى مبتكر واحترافي</p>
+                    </div>
+                    <div class="feature reveal delay-3 card-3d">
+                        <img src="https://img.freepik.com/premium-vector/diverse-group-people-raise-hands-unity-celebration_1300528-41154.jpg" alt="شراكات" class="feature-icon">
+                        <h4>شراكات</h4>
+                        <p>بناء علاقات إيجابية ومثمرة</p>
+                    </div>
+                    <div class="feature reveal delay-1 card-3d">
+                        <img src="https://img.freepik.com/premium-photo/3d-cinema-film-strip-reel-with-clapper-board-blue_1071931-26590.jpg" alt="عالمية" class="feature-icon">
+                        <h4>عالمية</h4>
+                        <p>من العالم العربي إلى العالم أجمع</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="services">
+            <div class="section-bg" style="background-image: url('https://images.unsplash.com/photo-1574267432553-4b4628081c31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2031&q=80');"></div>
+            <h2 class="section-title reveal">خدماتنا</h2>
+            <div class="services-content">
+                <p class="services-text reveal">
+                    نقدم مجموعة متكاملة من الخدمات السينمائية والإنتاجية
+                    التي تلبي احتياجات العائلة العربية، بدءًا من الفكرة وصولاً إلى المنتج النهائي، مع الحفاظ على أعلى معايير الجودة والقيم.
+                </p>
+                <div class="services-grid">
+                    <div class="service-card reveal delay-1 card-3d">
+                        <img src="https://th.bing.com/th/id/OIP.ncdZoTGkQ_N-jDq5JdqvCwHaHa?w=161&h=180&c=7&r=0&o=7&cb=12&dpr=1.5&pid=1.7&rm=3" alt="إنتاج أفلام" class="service-icon">
+                        <h3 class="service-title">إنتاج أفلام</h3>
+                        <p>إنتاج أفلام عائلية هادفة بجودة عالية وقيم أصيلة</p>
+                    </div>
+                    <div class="service-card reveal delay-2 card-3d">
+                        <img src="https://img.freepik.com/premium-photo/happy-family-watching-movie-together_14117-1019298.jpg?w=996" alt="رسوم متحركة" class="service-icon">
+                        <h3 class="service-title">رسوم متحركة</h3>
+                        <p>إنتاج رسوم متحركة تعليمية وترفيهية للصغار والكبار</p>
+                    </div>
+                    <div class="service-card reveal delay-3 card-3d">
+                        <img src="https://saudimoments.awicdn.com/site-images/sites/default/files/saudimoments-prod/article/3/6/721422/88fe210748b6062379bcd96720f7f2a569fc80e5-050325164148.jpeg?preset=v3.0_970XDYN&rnd=12344&save-png=1" alt="استشارات إنتاجية" class="service-icon">
+                        <h3 class="service-title">استشارات إنتاجية</h3>
+                        <p>تقديم استشارات متخصصة في إنتاج المحتوى العائلي</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="section-bg" style="background-image: url('https://images.unsplash.com/photo-1595769816263-9b910be24d5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2079&q=80');"></div>
+            <h2 class="section-title reveal">مشاريعنا</h2>
+            <div class="projects-grid">
+                <div class="project-card reveal card-3d">
+                    <div class="project-image">
+                        <img src="https://img.youtube.com/vi/mMUTqbHIrGw/maxresdefault.jpg" alt="فيديو 1" class="video-thumbnail" onerror="this.src='https://images.unsplash.com/photo-1489599809505-7c8c5a6c6d6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'">
+                        <div class="play-button" onclick="openVideo('https://www.youtube.com/watch?v=mMUTqbHIrGw&t=3s')">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="video-source">يوتيوب</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">أول فيلم لـ Arab Family Cinema</h3>
+                        <p class="project-description">فيلمنا الأول الذي يقدم قصة عائلية هادفة تجمع بين الترفيه والتعليم، يعكس رؤيتنا في تقديم محتوى سينمائي راقٍ للعائلة العربية.</p>
+                        <a href="https://www.youtube.com/watch?v=mMUTqbHIrGw&t=3s" target="_blank" class="watch-btn">
+                            <i class="fab fa-youtube"></i> شاهد على يوتيوب
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card reveal delay-1 card-3d">
+                    <div class="project-image">
+                        <img src="https://i.ytimg.com/vi/fd9hhLDmAbs/maxresdefault.jpg" alt="مغامرات عائلية ممتعة" class="video-thumbnail" onerror="this.src='https://images.unsplash.com/photo-1489599809505-7c8c5a6c6d6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'">
+                        <div class="play-button" onclick="openVideo('https://www.youtube.com/watch?v=hYTKFZf0hU0')">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="video-source">يوتيوب</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">مغامرات عائلية ممتعة</h3>
+                        <p class="project-description">
+                            مغامرات شيقة
+                            لعائلة عربية تتعلم من خلالها قيم التعاون والصداقة، في إطار من المرح والإثارة المناسبة لجميع أفراد الأسرة.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=hYTKFZf0hU0" target="_blank" class="watch-btn">
+                            <i class="fab fa-youtube"></i> شاهد على يوتيوب
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card reveal delay-2 card-3d">
+                    <div class="project-image">
+                        <img src="https://i.pinimg.com/originals/89/2e/56/892e56ec9a2c877906f1c25fb0286ac0.jpg" alt="قصة عائلية جديدة" class="video-thumbnail" onerror="this.src='https://images.unsplash.com/photo-1489599809505-7c8c5a6c6d6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'">
+                        <div class="play-button" onclick="openVideo('https://www.youtube.com/watch?v=k9qhUZDO1JM')">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="video-source">يوتيوب</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">قصة عائلية جديدة</h3>
+                        <p class="project-description">قصة عائلية جديدة تقدم قيماً تربوية هامة في إطار من المرح والتشويق، تهدف إلى تعزيز الروابط الأسرية ونشر القيم الإيجابية.</p>
+                        <a href="https://www.youtube.com/watch?v=k9qhUZDO1JM" target="_blank" class="watch-btn">
+                            <i class="fab fa-youtube"></i> شاهد على يوتيوب
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="clients">
+            <div class="section-bg" style="background-image: url('https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');"></div>
+            <h2 class="section-title reveal">عملاؤنا</h2>
+            <div class="clients-content">
+                <p class="clients-text reveal">
+                    نفتخر بشراكتنا مع مجموعة من أبرز المؤسسات والجهات في مجال الإنتاج الإعلامي، حيث نسعى دائمًا لبناء علاقات طويلة الأمد قائمة على الثقة والجودة والإبداع.
+                </p>
+                <div class="clients-grid">
+                    <div class="client-card reveal card-3d">
+                        <div class="client-icon">📺</div>
+                        <h3 class="client-title">قنوات تلفزيونية</h3>
+                        <p>شراكات مع أبرز القنوات العربية المتخصصة في المحتوى العائلي</p>
+                    </div>
+                    <div class="client-card reveal delay-1 card-3d">
+                        <div class="client-icon">🎬</div>
+                        <h3 class="client-title">استوديوهات إنتاج</h3>
+                        <p>تعاون مع استوديوهات إنتاج محلية وإقليمية</p>
+                    </div>
+                    <div class="client-card reveal delay-2 card-3d">
+                        <div class="client-icon">🏢</div>
+                        <h3 class="client-title">مؤسسات تعليمية</h3>
+                        <p>شراكات مع مؤسسات تعليمية لإنتاج محتوى تعليمي هادف</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="blog">
+            <div class="section-bg" style="background-image: url('https://images.unsplash.com/photo-1489599809505-7c8c5a6c6d6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');"></div>
+            <h2 class="section-title reveal">المدونة</h2>
+            <div class="blog-content">
+                <p class="blog-text reveal">
+                    نشارككم أحدث أخبارنا ورؤى فريقنا حول صناعة السينما العائلية، بالإضافة إلى نصائح وإرشادات حول كيفية
+                    اختيار المحتوى المناسب للعائلة.
+                </p>
+                <div class="blog-grid">
+                    <div class="blog-card reveal card-3d">
+                        <div class="blog-image">
+                            <img src="https://img.freepik.com/premium-photo/happy-family-six-is-sitting-together-couch-smiling_14117-906268.jpg" alt="أهمية السينما العائلية">
+                        </div>
+                        <div class="blog-content-inner">
+                            <h3 class="blog-title">أهمية السينما العائلية</h3>
+                            <p class="blog-description">كيف تساهم السينما العائلية في بناء شخصية الطفل وتعزيز القيم الإيجابية</p>
+                            <button class="btn-primary read-more-btn" data-target="blog1" style="margin-top: 15px; padding: 10px 20px; font-size: 0.9rem;">اقرأ المزيد</button>
+                            <div class="blog-detail" id="blog1">
+                                <p>السينما العائلية هي أداة تربوية ممتعة تساهم في:</p>
+                                <ul>
+                                    <li>غرس القيم الأخلاقية في الأطفال.</li>
+                                    <li>تقوية الروابط الأسرية عبر الحوار.</li>
+                                    <li>تنمية خيالهم وتفكيرهم النقدي.</li>
+                                    <li>مساعدتهم على فهم المشاعر في بيئة آمنة.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-card reveal delay-1 card-3d">
+                        <div class="blog-image">
+                            <img src="https://miro.medium.com/v2/resize:fit:1358/1*kzQrrtT0JRPmAZfY6lxEqA.png" alt="تأثير الرسوم المتحركة">
+                        </div>
+                        <div class="blog-content-inner">
+                            <h3 class="blog-title">تأثير الرسوم المتحركة</h3>
+                            <p class="blog-description">دور الرسوم المتحركة في تنمية مهارات الأطفال الإبداعية والاجتماعية</p>
+                            <button class="btn-primary read-more-btn" data-target="blog2" style="margin-top: 15px; padding: 10px 20px; font-size: 0.9rem;">اقرأ المزيد</button>
+                            <div class="blog-detail" id="blog2">
+                                <p>باختصار شديد، الرسوم المتحركة تنمي لدى الأطفال جانبين أساسيين:</p>
+                                <ul>
+                                    <li>الإبداعي: عبر تحفيز الخيال والفن.</li>
+                                    <li>الاجتماعي: عبر تعليم التعاطف وغرس القيم.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-card reveal delay-2 card-3d">
+                        <div class="blog-image">
+                            <img src="https://cdn.sanity.io/images/1wwg4dm6/production/43667a4b1a729edd8e15312e5ccd08681f8d7eda-1280x731.jpg?w=1600&h=900&auto=format&q=80&fit=crop" alt="مستقبل الإنتاج العربي">
+                        </div>
+                        <div class="blog-content-inner">
+                            <h3 class="blog-title">مستقبل الإنتاج العربي</h3>
+                            <p class="blog-description">تطلعات وتحديات صناعة المحتوى العائلي في العالم العربي</p>
+                            <button class="btn-primary read-more-btn" data-target="blog3" style="margin-top: 15px; padding: 10px 20px; font-size: 0.9rem;">اقرأ المزيد</button>
+                            <div class="blog-detail" id="blog3">
+                                <p>مستقبل الإنتاج العربي يواجه مجموعة من التحديات والفرص:</p>
+                                <ul>
+                                    <li>تحديات: نقص التمويل، المنافسة العالمية، قلة الخبرات المحلية.</li>
+                                    <li>فرص: نمو سوق المحتوى العربي، زيادة الوعي بأهمية المحتوى الهادف، تطور التقنيات.</li>
+                                    <li>تطلعات: إنتاج محتوى عالي الجودة ينافس عالمياً، تعزيز الهوية العربية، بناء شراكات إقليمية ودولية.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="application-section" id="application-form">
+            <div class="section-bg" style="background-image: url('https://images.unsplash.com/photo-1489599809505-7c8c5a6c6d6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');"></div>
+            <div class="application-header reveal">
+                <h2 class="application-title">نموذج طلب الانضمام</h2>
+                <p class="application-subtitle">املأ البيانات أدناه لتقديم طلب الانضمام إلى فريق Arab Family Cinema</p>
+            </div>
+            <div class="application-form-container reveal">
+                <p class="form-intro">
+                    نحن سعداء برغبتك في الانضمام إلى عائلتنا. يرجى ملء النموذج أدناه بمعلوماتك الصحيحة، وسنقوم بالتواصل معك في أقرب وقت ممكن.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <label for="join-name">الاسم الكامل</label>
+                        <input type="text" id="join-name" class="form-control" required placeholder="أدخل اسمك الكامل">
+                    </div>
+                    <div class="form-group">
+                        <label for="join-email">البريد الإلكتروني</label>
+                        <input type="email" id="join-email" class="form-control" required placeholder="بريدك الإلكتروني">
+                    </div>
+                    <div class="form-group">
+                        <label for="join-phone">رقم الهاتف</label>
+                        <input type="tel" id="join-phone" class="form-control" required placeholder="رقم هاتفك">
+                    </div>
+                    <div class="form-group">
+                        <label for="join-position">الوظيفة المتقدم لها</label>
+                        <select id="join-position" class="form-control" required>
+                            <option value="">اختر الوظيفة...</option>
+                            <option value="animator">فنان رسوم متحركة</option>
+                            <option value="writer">كاتب سيناريو</option>
+                            <option value="composer">مؤلف موسيقي</option>
+                            <option value="director">مخرج</option>
+                            <option value="editor">محرر فيديو</option>
+                            <option value="designer">مصمم جرافيك</option>
+                            <option value="other">أخرى</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="join-experience">سنوات الخبرة</label>
+                        <input type="number" id="join-experience" class="form-control" min="0" max="50" placeholder="عدد سنوات الخبرة">
+                    </div>
+                    <div class="form-group">
+                        <label for="join-portfolio">رابط معرض الأعمال</label>
+                        <input type="url" id="join-portfolio" class="form-control" placeholder="رابط معرض أعمالك">
+                    </div>
+                    <div class="form-group">
+                        <label for="join-message">رسالة التقديم</label>
+                        <textarea id="join-message" class="form-control" placeholder="أخبرنا عن نفسك، خبراتك، وأسباب رغبتك في الانضمام إلينا..." required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="join-cv" class="file-upload-label">
+                            <i class="fas fa-cloud-upload-alt"></i> <span>انقر لتحميل السيرة الذاتية (PDF, DOC, DOCX)</span>
+                        </label>
+                        <input type="file" id="join-cv" class="file-input" required accept=".pdf,.doc,.docx">
+                    </div>
+                    <button type="submit" class="btn-primary submit-btn">
+                        <i class="fas fa-paper-plane"></i> إرسال طلب الانضمام
+                    </button>
+                </form>
+                <div class="whatsapp-section reveal">
+                    <h3>تواصل معنا عبر الواتساب</h3>
+                    <p>يمكنك التواصل معنا مباشرة عبر الواتساب للاستفسار عن طلبات الانضمام أو لأي استفسارات أخرى</p>
+                    <a href="https://wa.me/201125566003" target="_blank" class="whatsapp-contact">
+                        <i class="fab fa-whatsapp"></i> تواصل معنا عبر الواتساب
+                    </a>
+                    <p style="margin-top: 10px; font-size: 1rem; color: var(--secondary);"> الرقم: +20 11 25566003 </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="section-bg" style="background-image: url('https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');"></div>
+            <h2 class="section-title reveal">اتصل بنا</h2>
+            <div class="contact-content">
+                <div class="contact-info reveal delay-1">
+                    <h3>تواصل معنا</h3>
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <i class="fas fa-map-marker-alt"></i> <span>القاهرة، جمهورية مصر العربية</span>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-envelope"></i> <span>info@arabfamilycinema.com</span>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-phone"></i> <span>+20 100 123 4567</span>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fab fa-whatsapp"></i> <span>+20 11 25566003</span>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-clock"></i> <span>الأحد - الخميس: 8 ص - 5 م</span>
+                        </div>
+                    </div>
+                    <p>
+                        نحن هنا للإجابة على استفساراتك والاستماع
+                        لأفكارك. لا تتردد في التواصل معنا!
+                    </p>
+                    <a href="https://wa.me/201125566003" target="_blank" class="whatsapp-contact" style="margin-top: 20px;">
+                        <i class="fab fa-whatsapp"></i> تواصل واتساب
+                    </a>
+                </div>
+                <div class="contact-form reveal delay-2">
+                    <h3>أرسل رسالة</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">الاسم الكامل</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">الموضوع</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">الرسالة</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary" style="width: 100%; padding: 14px; font-size: 1rem;">
+                            <i class="fas fa-paper-plane"></i> إرسال الرسالة
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>سينما الأسرة العربية</h3>
+                <p>الوجهة الأولى للعائلة العربية في مجال السينما العائلية الهادفة، نقدم محتوى يجمع بين الترفيه والقيم.</p>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/share/1MncCMkAdR/?mibextid=qi2Omg" target="_blank" class="social-icon facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/cinemaarabfamily?igsh=bmxvMmFuajVuNjFo" target="_blank" class="social-icon instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@cinemaarabfamily?_t=ZS-90n2vzNFqyY&_r=1" target="_blank" class="social-icon tiktok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://youtu.be/mMUTqbHIrGw?si=yN2Ss0bXcMxepbfz" target="_blank" class="social-icon youtube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://wa.me/201125566003" target="_blank" class="social-icon whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="mailto:aadelrowad1@gmail.com" class="social-icon email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>روابط سريعة</h3>
+                <a href="#home">الرئيسية</a>
+                <a href="#about">من نحن</a>
+                <a href="#services">خدماتنا</a>
+                <a href="#projects">مشاريعنا</a>
+                <a href="#clients">عملاؤنا</a>
+                <a href="#blog">المدونة</a>
+                <a href="#contact">اتصل بنا</a>
+            </div>
+            <div class="footer-section">
+                <h3>اتصل بنا</h3>
+                <p>القاهرة، جمهورية مصر العربية</p>
+                <p>info@arabfamilycinema.com</p>
+                <p>+20 100 123 4567</p>
+                <p>واتساب: +20 11 25566003</p>
+                <p>البريد الإلكتروني: aadelrowad1@gmail.com</p>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2025 سينما الأسرة العربية.
+            جميع الحقوق محفوظة.
+        </div>
+    </footer>
+    <script src="./script/main.js"></script>
+</body>
+</html>
